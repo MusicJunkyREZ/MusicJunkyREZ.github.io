@@ -1,0 +1,60 @@
+body{
+
+}
+
+#headShot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+h2{
+    font-size: 15px;
+    margin: 0 2px 0 2px;
+    text-align: center;
+}
+
+#displayButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sideBox{
+    width: 20%;
+    length: 100%;
+    background: white;
+    position: fixed;
+
+}
+
+#headShot{
+    width: 80%;
+    length: 15%;
+}
+
+.mainBox {
+    width: 79%;
+    length: 100%;
+    overflow: auto;
+    float: right;
+}
+
+#scrollBox{
+    height:100%;
+    width:78%;
+    
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
