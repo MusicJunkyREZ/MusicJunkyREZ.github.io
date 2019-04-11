@@ -38,6 +38,19 @@ h2{
     length: 15%;
 }
 
+/* .pictureBox{
+    length: 200px;
+    width: 100px;
+    float: left;
+    background: purple;
+}
+
+img{
+    length: 200px;
+    width: 300px;
+    position: relative;
+} */
+
 .mainBox {
     width: 79%;
     length: 100%;
