@@ -71,3 +71,26 @@ img{
     clear: both;
     display: table;
   }
+
+/* Front page */
+#wdp{
+    float: left
+}
+
+#mp{
+    float: left
+}
+
+.half-box1{
+    width: 50%;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.half-box2{
+    width: 50%;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
