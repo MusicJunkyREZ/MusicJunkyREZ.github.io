@@ -4,32 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Welcome! | Reid Zuckerman</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="mainStyle.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <script src="https://code.createjs.com/easeljs-0.7.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-  <script src="./script.js"></script>
+  <script src="script.js"></script>
 </head>
 
 <body>
-  <div class="half-box1" id="wdp">
-    <a style="text-decoration:none" href="https://musicjunkyrez.github.io/home.html">Web Developer Portfolio</a>
-  </div>
-  <div class="half-box2" id="mp">
-    <a style="text-decoration:none" href="https://www.reidzuckerman.com">Music Website</a>
-  </div>
+  <header class="v-header container">
+    <div class="fullscreen-video-wrap">
+      <video src='movies/example4.mp4' playsinline autoplay muted loop></video>
+    </div>
 
+    <div class="half-box1" id="wdp">
+      <a style="text-decoration:none" href="https://musicjunkyrez.github.io/home.html">Web Developer Portfolio</a>
+    </div>
+    <div class="half-box2" id="mp">
+      <a style="text-decoration:none" href="https://www.reidzuckerman.com">Music Website</a>
+    </div>
+  </header>
+
+
+
+  <!-- This maintains word animation before youtube video loads -->
   <canvas id="projector">Your browser does not support the Canvas element.</canvas>
 
-  <!-- <div class="circle">
-    <div class="splatter">
-      
-    </div>
-  </div>
-  <img class="splatter" src="http://static.indigoimages.ca/2015/shop/orange-paint-splatter.png"> -->
 
+  <!-- </div> -->
 </body>
 
 </html>
