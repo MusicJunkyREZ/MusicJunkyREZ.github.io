@@ -92,13 +92,28 @@ body{
     height: 100%;
 }
 
-a { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:focus { text-decoration: none; }
-a:hover, a:active { text-decoration: none; }
+a { color:white } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:#A4A4A4}
 
 #wdp{
+    float: left;
+    font-size: 50px;
+}
+
+#mp{
+    float: left;
+    font-size: 50px;
+}
+
+
+/* Previous animation */
+/* #wdp{
     float: left;
     font-size: 50px;
     color: white;
@@ -126,7 +141,7 @@ a:hover, a:active { text-decoration: none; }
     animation-fill-mode: both; 
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.1s; 
-}
+} */
 
   .half-box1{
     width: 50%;
