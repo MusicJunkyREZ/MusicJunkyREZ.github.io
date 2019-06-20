@@ -78,7 +78,7 @@ p{
 #about-box{
   color:#BDBDBD;
   border-style: groove;
-  height: 140px;
+  height: 90px;
   /* width: 880px; */
   width: 98%;
   /* word-wrap: break-word; */
@@ -102,6 +102,21 @@ p{
   position: fixed;
   float: left; 
   z-index: 100;
+}
+
+.resume-download-btn{
+  text-align: center;
+  background: lightgray;
+  margin-top: 5px;
+  margin-left: 40%;
+  width: 20%;
+  height: 8%;
+  border-radius: 15%;
+  font-size: 20px;
+}
+
+.resume-download-btn:hover{
+  background:#50f442;
 }
 
 #resume-box{
@@ -202,6 +217,7 @@ img{
 }
 
 #back-button{
+  background: lightgray;
   margin-top: 10px;
   margin-left: 45%;
   /* width: 100px;
@@ -238,6 +254,20 @@ a, a:visited, a:hover, a:active {
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* bounce animation for resume-download-btn */
+.hvr-resume-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hvr-resume-bounce-in:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition-duration: .2s;
 }
 
 /* Stars */
